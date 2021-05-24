@@ -1,5 +1,12 @@
 
+def sleep_in(weekday, vacation):
+  if not weekday or vacation:
+    return True
+  else:
+    return False
 
+print (sleep_in)
+  # This can be shortened to: return(not weekday or vacation)
 
 #The parameter weekday is True if it is a weekday, 
 #and the parameter vacation is True if we are on vacation. 
