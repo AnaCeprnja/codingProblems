@@ -26,3 +26,8 @@ firstLast6([6, 1, 2, 3]) → true
 firstLast6([13, 6, 1, 2, 3]) → false */
 public boolean firstLast6(int[] nums)
 {	return (nums[0] == 6 || nums[nums.length-1] == 6);	}
+
+// Given an array of ints, return true if the array is length 1 or more, and the 
+// first element and the last element are the same. 
+public boolean sameFirstLast(int[] nums)
+{	return (nums.length >= 1 && nums[0] ==  nums[nums.length-1]);}
