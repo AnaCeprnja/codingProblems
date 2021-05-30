@@ -31,3 +31,11 @@ public boolean firstLast6(int[] nums)
 // first element and the last element are the same. 
 public boolean sameFirstLast(int[] nums)
 {	return (nums.length >= 1 && nums[0] ==  nums[nums.length-1]);}
+
+
+
+
+
+
+
+//print something that returns hello and a name
