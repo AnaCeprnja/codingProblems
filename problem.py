@@ -93,4 +93,7 @@ if __name__=='__main__':
     root.right.right.left = node('20')
     root.right.right.right = node('2')
     print evaluateExpressionTree(root)
+
+    # output will be 60 and 110
+
   
