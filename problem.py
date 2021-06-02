@@ -92,8 +92,16 @@ if __name__=='__main__':
     root.right.right = node('/')
     root.right.right.left = node('20')
     root.right.right.right = node('2')
-    print evaluateExpressionTree(root)
+print (evaluateExpressionTree(root))
 
     # output will be 60 and 110
+
+
+#Given an int n, return True if it is within 10 of 100 or 200. Note: abs(num) computes the absolute value of a number.
+
+
+#near_hundred(93) → True
+#near_hundred(90) → True
+#near_hundred(89) → False
 
   
