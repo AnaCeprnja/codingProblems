@@ -40,7 +40,7 @@ def restore(shortURL):
         return None
 
 def main():
-    URLs = ["www.facebook.com", "www.google.com", "www.facebook.com"]
+    URLs = ["www.facebook.com", "www.google.com", "www.instagram.com"]
 
     print("Non-redundant Shortening:")
     for URL in URLs:
